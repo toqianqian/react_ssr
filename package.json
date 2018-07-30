@@ -1,0 +1,37 @@
+{
+  "name": "ssr",
+  "version": "1.0.0",
+  "description": "react_ssr",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "qian"
+  },
+  "keywords": [
+    "ssr"
+  ],
+  "author": "qian",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-loader": "^7.1.2",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "koa": "^2.5.2",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^3.5.6"
+  }
+}
