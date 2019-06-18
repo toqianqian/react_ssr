@@ -1,6 +1,6 @@
-import Koa from 'koa';
-import routes from './router';
-import templating from './middleware/templating';
+import Koa from 'koa'
+import routes from './router'
+import templating from './middleware/templating'
 
 const app = new Koa();
 

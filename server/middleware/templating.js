@@ -1,11 +1,11 @@
-import fs from 'fs';
+import fs from 'fs'
+import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { StaticRouter } from 'react-router-dom'
 import RouterConfig from '../../app/router'
-import React from 'react';
-import path from 'path';
-import { Provider } from 'react-redux';
-import createStore from '../../app/redux/store/create';
+import path from 'path'
+import { Provider } from 'react-redux'
+import createStore from '../../app/redux/store/create'
 
 // 匹配模板中的{{}}
 function templating(props) {

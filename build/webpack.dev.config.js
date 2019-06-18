@@ -10,6 +10,7 @@ module.exports = merge(baseConfig, {
     devServer: {
         // 设置端口号,默认8080
         port: 8000,
+        historyApiFallback: true
     },
     plugins: [
         // 在js中注入全局变量process.env用来区分环境

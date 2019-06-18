@@ -21,7 +21,7 @@ const defaultStore = window.__STORE__ || {};
 
 const store = createStore(defaultStore);
 
-ReactDOM.hydrate(
+ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
             <Router />
